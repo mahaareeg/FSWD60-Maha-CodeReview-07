@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent} from './home-page/home-page.component';
 import { ImportantNumbersPageComponent } from './important-numbers-page/important-numbers-page.component';
 import { CustomerComponent } from './customer/customer.component';
-const routes: Routes = [{path:"Home-page", component: HomePageComponent
+const routes: Routes = [{path:"", component: HomePageComponent
 },
 {
         path:"Important-Numbers-page",component: ImportantNumbersPageComponent
