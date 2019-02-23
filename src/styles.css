@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.container-main{
+	width: 100%;
+	margin: 20px;
+	border: 10px;
+	background-color:lightgrey;
+}
