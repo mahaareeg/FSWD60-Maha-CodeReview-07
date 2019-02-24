@@ -1,5 +1,17 @@
 .container-main{
 
-	width: 800px;
+	width: 100%;
 	height: 900px;
+	margin-top: 60px;
+}
+
+.col-lg-12{
+
+	width: 100%;
+	height: 600px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 10px;
+	background-color: darkgrey;
+
 }
