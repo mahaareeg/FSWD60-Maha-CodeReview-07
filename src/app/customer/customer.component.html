@@ -1,8 +1,13 @@
 
 <div class="container-custom">
+       
 
 <div class="row">
         <div class="col-md-5">
+
+                <h2> My Phone Book</h2>
+     
+     <h3> New Contact</h3> 
                 <form [formGroup]="this.customerService.form" (ngSubmit)="onSubmit()">
                         <input type="hidden" formControlName="$key">
                         <div class="form-group">
@@ -34,7 +39,7 @@
                 
 
                         <div class="form-group">
-                                <input type="submit" class="btn btn-primary" value="Submit">
+                                <input type="submit" class="btn btn-success" value="Add contact">
                         </div>
                 </form>
                 <div class="alert alert-info" *ngIf="showSuccessMessage">

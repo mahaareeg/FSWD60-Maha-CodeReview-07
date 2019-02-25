@@ -2,3 +2,11 @@
 
 	margin-top: 70px;
 }
+.btn-dark{
+	background-color: #17202A;
+	color: white;
+}
+.form-inline{
+margin-bottom: 20px;
+
+}

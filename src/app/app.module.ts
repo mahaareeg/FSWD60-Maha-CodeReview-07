@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ImportantNumbersPageComponent } from './important-numbers-page/important-numbers-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
  declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
    NavbarComponent,
    HomePageComponent,
    ImportantNumbersPageComponent,
-   FooterComponent
+   FooterComponent,
+   HeaderComponent
  ],
  imports: [
    BrowserModule,
