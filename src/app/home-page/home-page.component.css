@@ -1,17 +1,44 @@
-.container-main{
+.container-fluid{
 
 	width: 100%;
-	height: 900px;
-	margin-top: 60px;
+	height: auto;
+	
+}
+.row{
+	width: 100%;
+}
+.start {
+	width: 100%;
+	height: auto;
+
+
+}
+ h2{
+
+	font-size: 32px;
+	font-weight: bold;
 }
 
-.col-lg-12{
+
+
+
+.image{
 
 	width: 100%;
-	height: 600px;
-	margin-right: 20px;
-	margin-left: 20px;
-	border: 10px;
+
+	height: auto;
+	
+	
 	background-color: darkgrey;
+
+}
+.image img{
+
+	width: 60%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	
 
 }

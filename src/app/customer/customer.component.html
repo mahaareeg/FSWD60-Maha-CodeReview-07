@@ -1,16 +1,17 @@
 
-<div class="container-custom">
+<div class="container-fluid">
        
 
 <div class="row">
-        <div class="col-md-5">
+        <div class="col-lg-5 col-md-5 col-sm-12" id="frst">
+<div class="onee">
 
                 <h2> My Phone Book</h2>
      
      <h3> New Contact</h3> 
                 <form [formGroup]="this.customerService.form" (ngSubmit)="onSubmit()">
                         <input type="hidden" formControlName="$key">
-                        <div class="form-group">
+                        <div class="form-group" id="fnm">
                                 <label>First Name</label>
                                 <!-- we will add this class is-invalid with the help of [ngClass] directive 
                                 this class will be applied when the form is submitted and we have a validation error regarding full name -->
@@ -20,14 +21,14 @@
                                 <div class="invalid-feedback" *ngIf="submitted && formControls.firstName.errors">This field is required</div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group" id="lnm">
                                 <label>Last Name</label>
                                 <!-- here we add the the invalid class based on the same condition for email and the possible error for this email control is due to the invalid email address -->
                                 <input formControlName="lastName" class="form-control" [ngClass]="{'is-invalid':submitted && formControls.lastName.errors}">
                                 <div class="invalid-feedback" *ngIf="submitted && formControls.lastName.errors">This field is required ..</div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group" id="phn">
                                 <label>Phone Number</label>
                                 <input formControlName="phoneNumber" class="form-control" [ngClass]="{'is-invalid':submitted && formControls.phoneNumber.errors}">
                                 <div class="invalid-feedback" *ngIf="submitted && formControls.phoneNumber.errors">
@@ -48,9 +49,15 @@
 
 
         </div>
-        <div class="col-md-7">
+    </div>
+        <div class="col-lg-7 col-md-7 col-sm-12" id="foom" >
+
+
+        
                 <customer-list></customer-list>
         </div>
 
+</div>
+</div>
 
-</div> 
+ 

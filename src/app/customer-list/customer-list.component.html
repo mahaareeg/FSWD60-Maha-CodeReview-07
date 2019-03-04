@@ -1,15 +1,12 @@
-
-<form class="form-inline">
-        <input name="searchInput" class="form-control" placeholder="Search" #searchInput="ngModel" [(ngModel)]="searchText" style="width: 80%;">
-        <button class="btn btn-dark" (click)="searchText=''"> Filter </button>
+<div class="twoo">
+<form class="form-inline" >
+        <input name="searchInput" class="form-control" placeholder="Search" #searchInput="ngModel" [(ngModel)]="searchText" style="width: 80%;"> 
+        <button class="btn btn-dark btn"  (click)="searchText=''"> Filter </button>
 </form>
-<table class="table table-sm">
-        <thead>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Phone Number</th>
-                <th></th>
-        </thead>
+
+<h3>Contacts</h3>
+<table class="table table-sm" id="tb">
+       
         <ng-container *ngFor="let customer of customerArray">
                 <tr class="table-dark" *ngIf="filterCondition(customer)">
                         <td>{{customer.firstName}}</td>
@@ -25,3 +22,4 @@
 </table>
 
 <div class="alert alert-danger" *ngIf="showDeletedMessage">Deleted successfully</div>
+</div>

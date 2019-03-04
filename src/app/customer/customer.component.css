@@ -1,23 +1,69 @@
 
 
-.container-custom{
+.container-fluid{
 
 	width: 100%;
-	height: 900px;
+	height: auto;
 }
 
   h2{
 	color: #DC7633;
+	margin-top: 0;
 }
-.col-md-5{
-    width: 550px; 
-	margin-top: 70px;
+
+
+#frst{
+    width: 45%; 
+	margin-top: 20px;
 	margin-right: 20px;
+	
+	
+ 
+
+	
 }
-.col-md-7{
-	width: 550px;
-	margin-top: 70px;
+#foom{
+	width: 45%;
+	margin-top: 20px;
+	margin-left: 10px;
+
+
+}
+#lnm{
+
+	width: 40%;
+	margin-left: 5px;
+	border: 1px;
+	display: inline-block;
+	
+}
+
+#fnm{
+
+	width: 40%;
+	margin-right: 5px;
 	margin-left: 20px;
-
-
+	border: 1px;
+	display: inline-block;
 }
+
+#phn{
+
+	width: 85%;
+	margin-left: 20px;
+}
+
+form{
+	background-color: darkgrey;
+}
+
+.btn {
+margin-left: 40%;
+margin-bottom: 20px;
+margin-top: 70px;
+	}
+	
+
+
+
+
